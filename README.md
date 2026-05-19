@@ -1,90 +1,94 @@
-# CodVeda — Machine Learning Internship Portfolio
+# 🧠 CodVeda ML Internship — Level 1
 
-Professional, concise showcase of Level 1 internship projects completed for CodVeda Technology.
-
-Highlights
-
-- Practical end-to-end ML pipelines: preprocessing → modeling → evaluation
-- Clear, reproducible notebooks and scripts for learning and demonstration
-- Datasets, models, and visualizations included for inspection and reuse
-
-Table of Contents
-
-- Project Overview
-- Tech Stack
-- Project Structure
-- Completed Tasks
-- How to Run
-- Results & Visualizations
-- Future Improvements
-- Author & Contact
-
-## Project Overview
-
-This repository contains practical exercises and mini-projects focused on foundational machine learning topics. Each task demonstrates a key concept (data cleaning, regression, classification), with code, visualizations, and evaluation metrics designed for clarity and reproducibility.
-
-## Tech Stack
-
-- Python 3.8+
-- pandas, NumPy
-- scikit-learn
-- matplotlib, seaborn
-- Jupyter Notebook
-
-## Project Structure
-
-The workspace is organized to separate datasets, source code, notebooks, and outputs:
-
-```
-
-```
-
-## Completed Tasks
-
-## Results & Visualizations
-
-## How to Run
-
-1. Create and activate a virtual environment
-
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-
-2. Install dependencies
-
-```bash
-
-```
-
-3. Open the notebooks (recommended)
-
-```bash
-jupyter notebook
-```
-
-Or run a script (if available):
-
-```bash
-python src/main.py
-```
-
-## Future Improvements
-
-- Add advanced models (Random Forests, Gradient Boosting)
-- Build hyperparameter-search pipelines and cross-validation
-- Export trained models and add small demo for inference
-- Dockerize environment for reproducibility and deployment
-
-## Author
-
-Mohamed Yasseene Rahal — CodVeda Machine Learning Intern
-
-Contact: (add email or LinkedIn link here)
+**Intern:** Yasseene  
+**Organization:** CodVeda  
+**Level:** 1 — Foundations of Machine Learning  
+**Tech Stack:** Python · scikit-learn · pandas · numpy · matplotlib · seaborn · Jupyter
 
 ---
 
-```
+## 📁 Repository Structure
 
 ```
+CodVeda-ML-Internship/
+│
+├── Task1_DataPreprocessing/       # Missing values, encoding, scaling, splitting
+│   ├── notebooks/                 # Jupyter Notebook
+│   ├── data/                      # Dataset files
+│   ├── outputs/                   # Saved plots and CSVs
+│   └── README.md
+│
+├── Task2_LinearRegression/        # House price prediction with Linear Regression
+│   ├── notebooks/
+│   ├── data/
+│   ├── outputs/
+│   └── README.md
+│
+├── Task3_KNN_Classification/      # Iris classification with KNN
+│   ├── notebooks/
+│   ├── data/
+│   ├── outputs/
+│   └── README.md
+│
+└── requirements.txt               # All Python dependencies
+```
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/mUchiha26/CodVeda-ML-Internship.git
+cd CodVeda-ML-Internship
+
+# Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate        # Linux/macOS
+# venv\Scripts\activate         # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter
+jupyter notebook
+```
+
+---
+
+## 📋 Task Overview
+
+| Task   | Topic              | Algorithm           | Dataset             |
+| ------ | ------------------ | ------------------- | ------------------- |
+| Task 1 | Data Preprocessing | —                   | Titanic (synthetic) |
+| Task 2 | Linear Regression  | Linear Regression   | House Prices        |
+| Task 3 | KNN Classification | K-Nearest Neighbors | Iris                |
+
+---
+
+## 🧰 Tools & Libraries
+
+| Library        | Purpose                              |
+| -------------- | ------------------------------------ |
+| `pandas`       | Data manipulation and analysis       |
+| `numpy`        | Numerical computing                  |
+| `matplotlib`   | Low-level plotting                   |
+| `seaborn`      | Statistical visualizations           |
+| `scikit-learn` | ML models, preprocessing, evaluation |
+| `jupyter`      | Interactive development environment  |
+
+---
+
+## 📌 Key ML Engineering Principles Applied
+
+- ✅ No data leakage (fit only on training set)
+- ✅ Pipelines used where applicable
+- ✅ `random_state` set for reproducibility
+- ✅ Proper evaluation metrics per task type
+- ✅ PEP8 code style throughout
+- ✅ Visualizations saved to `/outputs`
+- ✅ Modular, documented code
+
+---
+
+_CodVeda Internship Program — Level 1 Deliverables_
